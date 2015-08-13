@@ -13,6 +13,7 @@
 		0A1A25C21B7BAEE400F5DB52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1A25C11B7BAEE400F5DB52 /* Images.xcassets */; };
 		0A1A25C51B7BAEE400F5DB52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A1A25C31B7BAEE400F5DB52 /* LaunchScreen.xib */; };
 		0A1A25D11B7BAEE400F5DB52 /* MotionCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1A25D01B7BAEE400F5DB52 /* MotionCaptureTests.swift */; };
+		0A1A25DB1B7BB95A00F5DB52 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1A25DA1B7BB95A00F5DB52 /* ConnectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0A1A25CA1B7BAEE400F5DB52 /* MotionCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1A25CF1B7BAEE400F5DB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A1A25D01B7BAEE400F5DB52 /* MotionCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionCaptureTests.swift; sourceTree = "<group>"; };
+		0A1A25DA1B7BB95A00F5DB52 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				0A1A25BA1B7BAEE400F5DB52 /* AppDelegate.swift */,
 				0A1A25BC1B7BAEE400F5DB52 /* ViewController.swift */,
+				0A1A25DA1B7BB95A00F5DB52 /* ConnectionManager.swift */,
 				0A1A25BE1B7BAEE400F5DB52 /* Main.storyboard */,
 				0A1A25C11B7BAEE400F5DB52 /* Images.xcassets */,
 				0A1A25C31B7BAEE400F5DB52 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A1A25BD1B7BAEE400F5DB52 /* ViewController.swift in Sources */,
+				0A1A25DB1B7BB95A00F5DB52 /* ConnectionManager.swift in Sources */,
 				0A1A25BB1B7BAEE400F5DB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
